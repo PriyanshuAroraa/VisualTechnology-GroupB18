@@ -1,163 +1,163 @@
 body {
-    background-size: 100% 100%;
-    height: 100%;
-    width: 100%;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #header {
-    color: lightblue;
-    font-size: 54px;
-    font-weight: 300;
-    text-align: center;
-    text-shadow: 2px 2px lightcoral;
+  color: lightblue;
+  font-size: 54px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 #footer {
-    height: 15%;
-    width: 100%;
+  height: 15%;
+  width: 100%;
 }
 
 .p-text {
-    color: lightcoral;
-    font-size: 18px;
-    text-align: center;
-    line-height: 25px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
 }
 
 .button {
-    background-color: white; 
-    color: black; 
-    border: 3px solid lightblue;
-    padding: 16px 32px;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    letter-spacing: 1.1px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-right: 50px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    color: #d94f5c;
-    opacity: .8;
-    transition: all 0.45s;
-  }
+  background-color: white; 
+  color: black; 
+  border: 3px solid lightblue;
+  padding: 16px 32px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #d94f5c;
+  opacity: .8;
+  transition: all 0.45s;
+}
 
 
 .nav {
-    background-color: lightblue;
-    padding-bottom: 1%;
-    margin-top: 10%;
-    border: 1px solid lightcoral;
-    padding-top: 2%;
+  background-color: lightblue;
+  padding-bottom: 1%;
+  margin-top: 10%;
+  border: 1px solid lightcoral;
+  padding-top: 2%;
 }
 
 .infofooter-text {
-	margin-right: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    list-style: none;
+margin-right: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
 }
 
 .info-center {
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 1%;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 1%;
 }
 
 #content {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    height: auto;
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 2px solid lightblue;
+  height: auto;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid lightblue;
 }
 
 .product-box {
-    padding: 10px 10%;
-    margin: 25px 0;
-    box-shadow: 3px 4px 20px #363636;
-  }
+  padding: 10px 10%;
+  margin: 25px 0;
+  box-shadow: 3px 4px 20px #363636;
+}
 
-  .product-box p {
-    line-height: 1.5em;
-    text-align: justify;
-    text-indent: 1em;
-  }
-  
-  .product-box img {
-    width: 20%;
-  }
+.product-box p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 1em;
+}
 
-  .sub-header {
-    font-size: 29px;
-    text-transform: uppercase;
-    color: lightblue;
-  }
+.product-box img {
+  width: 20%;
+}
+
+.sub-header {
+  font-size: 29px;
+  text-transform: uppercase;
+  color: lightblue;
+}
 
 /*Contact*/
 
 .container {
-    border-radius: 5px;
-  }
+  border-radius: 5px;
+}
 
-  input[type=text], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 20px;
-  }
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
 
-  input[type=submit] {
-    background-color: lightblue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color:lightcoral;
-  }
+input[type=submit] {
+  background-color: lightblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  /*About*/
+input[type=submit]:hover {
+  background-color:lightcoral;
+}
+
+/*About*/
 
 .sub-h3 {
-    font-size: 24px;
-    color: lightcoral;
-    text-align: center;
+  font-size: 24px;
+  color: black;
+  text-align: center;
 }
 
 .sub-text {
-    color: #222; 
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 15px; 
-    font-weight: 400; 
-    line-height: 24px; 
-    margin: 0 0 14px;
-    text-align: center;
+  color: #222; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 15px; 
+  font-weight: 400; 
+  line-height: 24px; 
+  margin: 0 0 14px;
+  text-align: center;
 }
 
 .list-right {
-    float: right;
+  float: right;
 }
