@@ -181,9 +181,10 @@ input[type=submit]:hover {
 }
 
 .product-box2 p {
-  line-height: 1.5em;
+  line-height: 1.9em;
   text-align: justify;
-  text-indent: 1em;
+  text-indent: 2em;
+  font-size: 20px;
 }
 
 .product-box2 img {
