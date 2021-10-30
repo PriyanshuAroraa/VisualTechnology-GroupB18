@@ -17,7 +17,7 @@ body {
 
 .p-text {
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   line-height: 25px;
 }
@@ -167,7 +167,7 @@ input[type=submit]:hover {
   font-weight: 400; 
   line-height: 24px; 
   margin: 0 0 14px;
-  text-align: justify;
+  text-align: start;
 }
 
 .list-right {
