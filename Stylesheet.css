@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 #header {
   color: lightblue;
   font-size: 54px;
@@ -94,9 +98,9 @@ margin-right: 50px;
 }
 
 .product-box p {
-  line-height: 1.5em;
-  text-align: justify;
-  text-indent: 1em;
+  line-height: 1.9em;
+  text-align: center;
+  text-indent: 2em;
 }
 .product-box h2 {
  text-align: center;
@@ -167,4 +171,20 @@ input[type=submit]:hover {
 
 .list-right {
   float: right;
+}
+
+.product-box2 {
+  padding: 10px 10%;
+  margin: 25px 0;
+  box-shadow: 3px 4px 20px #363636;
+}
+
+.product-box2 p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 1em;
+}
+
+.product-box2 img {
+  width: 20%;
 }
